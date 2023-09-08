@@ -1,0 +1,2 @@
+1;ana;garcia;19;ana.garcia@example.com
+2;luis;martin;18;luis.martin@example.com
