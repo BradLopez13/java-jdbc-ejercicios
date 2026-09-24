@@ -15,7 +15,7 @@ import java.sql.SQLException;
 public class Conexion {
 	private String nombreDB = "EJERCICIO1_CLIENTES"; // Nombre de la base de datos
 	private String usuario = "root"; // Usuario de la base de datos
-	private String password = ""; // Contraseña de la base de datos
+	private String password = ""; // ContraseÃ±a de la base de datos
 	private String url = "jdbc:mysql://localhost:3306/"+ nombreDB; // URL de la base de datos
 
 	Connection conexion = null; // Variable de conexion a la base de datos

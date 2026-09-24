@@ -17,8 +17,15 @@ Los scripts `Gestor_proyectos.sql` y `Ejercicio!_NavClientes.sql` crean las dos 
 
 1. Un MySQL local en el puerto 3306 con usuario `root` sin contraseña (la configuración de la práctica, en las clases `Conexion`).
 2. Ejecutar los dos scripts `.sql`.
-3. Descargar el conector [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/) y añadirlo al classpath; ya no se incluye en el repositorio.
-4. Lanzar el `Main` del ejercicio que quieras.
+3. Descargar el conector [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/) (el `.jar` independiente de plataforma), que ya no se incluye en el repositorio, y guardarlo como `mysql-connector-j.jar` en `Practica2BradLopez`.
+4. Compilar y lanzar el ejercicio que quieras. Desde `Practica2BradLopez`, en Windows:
+
+```bash
+javac -cp mysql-connector-j.jar -d out src/*/*.java
+java -cp "out;mysql-connector-j.jar" Ejercicio1.Main
+```
+
+En macOS o Linux, cambia `;` por `:`. Los demás puntos de entrada son `Ejercicio3.Main2`, `Ejercicio4.Main3` y `Ejercicio6.Main`.
 
 ## Limitaciones conocidas
 

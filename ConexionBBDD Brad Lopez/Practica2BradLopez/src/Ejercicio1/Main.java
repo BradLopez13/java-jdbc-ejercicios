@@ -103,8 +103,8 @@ public class Main {
 	private static void info(int num) {
 		info="fila "+cliente.get(num).getCodC()+"= Nombre: "+cliente.get(num).getNombre()+", Apellidos: "+cliente.get(num).getApellidos()
 				+ ", Edad: "+cliente.get(num).getEdad()+", Correo: "+cliente.get(num).getCorreo();
-		operacion=JOptionPane.showInputDialog(info+"\n Filas disponibles:"+cliente.size()+"\n Introduzca:\n ´.´= para mostrar todo y cerrar\n ´k´=para ir a la siguiente fila\n"
-			+ "´d´=para ir a la fila anterior\n O introduzca el numero de la fila que desea ver");
+		operacion=JOptionPane.showInputDialog(info+"\n Filas disponibles:"+cliente.size()+"\n Introduzca:\n Â´.Â´= para mostrar todo y cerrar\n Â´kÂ´=para ir a la siguiente fila\n"
+			+ "Â´dÂ´=para ir a la fila anterior\n O introduzca el numero de la fila que desea ver");
 		operacionesBD();
 	}
 	private static void operacionesBD() {
